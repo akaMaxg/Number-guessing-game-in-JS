@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    color: black;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgray;
+    color: black;
+}
+
+.modalGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFBA70;
+    border-radius: 15px;
+    padding:5px;
+    border: 5px solid black;
+}
+
+button.playGame{
+    margin:10px;
+    padding: 5px;
+    background-color: #FF9623;
+    color: white;
+    border-radius: 5px;
+}
+
+button.enterGuess{
+    margin:10px;
+    padding: 5px;
+    background-color: #805D38;
+    color: white;
+    border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.transition {
+    transition: transform 1s ease-in;
+}
+
