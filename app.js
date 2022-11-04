@@ -38,11 +38,10 @@ document.querySelector('.enterNo')
 
 //a number between 1-100
 let rng = null 
-
 //function to randomize a number between 1-100
 function rngNumber() { 
-   rng = Math.floor((Math.random() * 100) + 1)
-}
+    rng = Math.floor((Math.random() * 100) + 1)
+ }
 
 //When play game button is pressed, hide background, show modal, generate number
 gameBtn.addEventListener('click',function(){
@@ -73,15 +72,12 @@ function checkNumber() {
     } 
 }
 
-
 //function to log guesses up to five.
 function guessedList() {
     let tooHigh = "(Too High!)"
     let tooLow = "(Too Low!)"
     if(i<=4) { 
-    console.log('i: ' + i)
     guess.guessed[i] = guessInput
-    console.log(guess.guessed[i])
     let listElement = document.createElement("li")
     if (guessInput == rng) {
         } else if (guessInput < rng) {
