@@ -1,3 +1,8 @@
+Ett gissa-tal spel skapat av Max Guclu utifrån nedan instruktioner. Detta är gjord som Workshop 6 lab och som del av Uppgift 2.
+Spårbarhet finns i git. 
+
+
+
 # JavaScript - Gissa numret
 
 Du använder dig av DOM:en för att interagera med HTML/CSS. Du använder enbart Vanilla JavaScript (inget ramverk/bibliotek). Du stylar i CSS efter egna preferenser, bättre än exempelbilden :smiley:
